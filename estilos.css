@@ -13,6 +13,7 @@ body {
 }
 
 .menu-btn {
+    user-select: none;
     cursor: pointer;
     transform: scale(3);
     width: 80px;
