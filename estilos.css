@@ -72,9 +72,11 @@ body {
 }
 
 .menu-btn.active .draw-bar::before {
+    background-color: red;
     transform: rotate(45deg) translate(35px,-35px);
 }
 
 .menu-btn.active .draw-bar::after {
+    background-color: red;
     transform: rotate(-45deg) translate(35px,35px);
 }
